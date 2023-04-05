@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Noto = TITRE */
+/* Lato = Corps du texte */
+
+*{
+    font-family: lato;
+}
+
+h1{
+    font-family: noto;
+}
+
