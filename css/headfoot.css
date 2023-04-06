@@ -32,22 +32,78 @@ h4{
 
 /* Texte de bienvenue header  */
 
-header.header {
-    display: flex;
+/* HEADER LIVRAISON */
+
+*{
+    font-family: lato;
+    margin: 0px;
+    font-size: 15px;
+}
+
+h1{
+    font-family: noto;
+}
+
+h4{
+    font-family: noto;
+    font-size: 20px;
+    color: white;
+
+}
+
+.headliv{
+    background-color: #d0b29e;
+    padding: 15px 0px 15px 0px;
+    color:white;
+    display:flex;
+    justify-content: center;
     align-items: center;
-    
 }
 
-header.header img {
-    width: 35px;
-}
 
-section.top-page {
-    background: url("../img/Nyssae-banniere-header.svg");
+/* header MENU  */
+
+.imagebackground{
+    background-image: url(../img/Nyssae-banniere-header.svg);
+    background-position: center;
+    height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
-    width:100%;
+    padding: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.textmenu{
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.headlogo{
+    height: 100px;
+}
+
+.imglogo {
+    width: 70px;
+}
+
+.top-page {
+    background-image: url(../img/Nyssae-banniere-header.svg);
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 25px;
+    height: 850px;
 }
 
 
@@ -83,26 +139,23 @@ a.bouton1:hover {
 
 nav.nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     list-style: none;
-    width: 400px;
-    margin-left: 400px ;
+    margin-right: 35%;
 }
 
 .nav li a{
     text-decoration: none ;
     color: white;
+    font-weight: 800;
+    font-size: 22px;
 }
 
 li a:hover{ 
     color:#d0b29e;
     text-decoration:double;
-}
-
-.LogoNyssaé{
-    width: 70px;
-    height: 50px;
-    display: 10px;
 }
 
 /* FOOTER  */
