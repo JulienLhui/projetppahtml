@@ -13,6 +13,13 @@ h1{
     font-family: noto;
 }
 
+h4{
+    font-family: noto;
+    font-size: 20px;
+    color: white;
+
+}
+
 .headliv{
     background-color: #d0b29e;
     padding: 15px 0px 15px 0px;
@@ -23,10 +30,11 @@ h1{
 }
 
 .footer1{
-
+    background-color: #d0b29e;
+    /* height: 200px; */
 }
 
 a{
     text-decoration-line: none;
-    color: black;
+    color: white;
 }
