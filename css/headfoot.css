@@ -30,6 +30,8 @@ h4{
     align-items: center;
 }
 
+/* Texte de bienvenue header  */
+
 header.header {
     display: flex;
     align-items: center;
@@ -48,7 +50,7 @@ section.top-page {
     padding: 25px;
 }
 
-/* Texte de bienvenue header  */
+
 .big-title{
     color: white;
     display: flex;
