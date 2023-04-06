@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-.colonnes.bestventes{
+.ventes{
 display: flex;
+
+justify-content:space-around 1px ;
 align-items: center;
 align-content: center;
+}
+
+.img-ventes{
+    height: 200px;
+    width: auto;
 }
 
 .bestventes{
