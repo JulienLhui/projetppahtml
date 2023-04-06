@@ -10,6 +10,7 @@ align-items: center;
 .img-ventes{
     height: 200px;
     width: auto;
+    justify-content: space-around 10px;
 }
 
 .bestventes{
