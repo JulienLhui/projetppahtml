@@ -45,3 +45,17 @@ a{
 .logors{
     height: 40px;
 }
+
+.blocfoot{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rs{
+    display: flex;
+    justify-content: space-around;
+
+}
+
