@@ -1,7 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* HEADER LIVRAISON */
 
+*{
+    font-family: lato;
+    margin: 0px;
+    font-size: 15px;
+}
+
+h1{
+    font-family: noto;
+}
+
+h4{
+    font-family: noto;
+    font-size: 20px;
+    color: white;
+
+}
+
+.headliv{
+    background-color: #d0b29e;
+    padding: 15px 0px 15px 0px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header MENU  */
+
+
+
+    /* MAIN  */
 
 .blogline{
     display: flex;
@@ -9,7 +42,7 @@
 }
 
 .blogline img{
-    height: 50%;
+    height: 500px;    
 }
 
 .blogline p,
