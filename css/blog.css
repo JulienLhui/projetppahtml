@@ -98,6 +98,15 @@ li a:hover{
     
 }
 
+.headertext{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+}
+
 a.bouton1 {
     display: flex;
     justify-content: center;
@@ -121,6 +130,15 @@ a.bouton1:hover {
 
     /* MAIN  */
 
+.titleblog{
+    font-family: Noto;
+    font-size: 30px;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
 main{
     margin: 0px 100px 0px 100px;
 }
@@ -128,7 +146,7 @@ main{
 .blogline{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0px 100px 0px;
+    margin: 0px 0px 100px 0px;
 }
 
 .blogimage{
