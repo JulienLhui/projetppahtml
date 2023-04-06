@@ -5,6 +5,7 @@
 
 main{
     background-color: #fff0e5;
+    background-image: url(../img/logo-blanc-nyssae.svg);
     color: white;
 
 }
@@ -162,7 +163,7 @@ p{
 
 
 .image{
-    border: 5px black solid;
+    border: 4px #4e2718 solid;
     border-radius: 50px;
     height: 300px
 
@@ -198,8 +199,13 @@ margin: 0px 50px 0px 50px;
     align-items: end;
     justify-content: center;
     margin: 100px 0px 50px 0px;
+
 }
 
+.part3{
+    margin: 0px 0px 80px 120px;
+
+}
 .part3image{
 
 display: flex;
