@@ -7,10 +7,14 @@ h1{
     color: #4e2718;
 }
 
-#carte{
-    width: 600px;
+
+p{
+    color: #4e2718;
+}
+
+.img{
+    display: flex;
+    justify-content: right;
+    align-items: center;
     margin: 0 auto;
-    background-color: white;
-    text-align: leftcenter;
-    align-content: center;
 }
