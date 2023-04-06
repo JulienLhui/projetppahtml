@@ -54,6 +54,7 @@ section.top-page {
     display: flex;
     align-items: right;
     font-size: 40px;
+    font-family: Noto Serif Diplay;
     padding: 100px 10px;
     flex-wrap: wrap;
     

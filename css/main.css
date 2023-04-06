@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+.colonnes.bestventes{
+display: flex;
+align-items: center;
+align-content: center;
+}
 
+.bestventes{
+font-family: noto serif display;
+font-style:bold;
+font-size: larger;
+color: #d0b29e;
 
+}
