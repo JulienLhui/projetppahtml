@@ -116,6 +116,7 @@ h4{
     font-family: Noto Serif Diplay;
     padding: 100px 10px;
     flex-wrap: wrap;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
     
 }
 
@@ -129,7 +130,6 @@ a.bouton1 {
     font-size: 15px;
     padding: 10PX 10px 10px 10PX;
     width: 200px;
-    cursor: pointer;
     margin: 0%;
   }
 
@@ -150,7 +150,7 @@ nav.nav{
     text-decoration: none ;
     color: white;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 li a:hover{ 

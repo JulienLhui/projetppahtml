@@ -23,14 +23,19 @@ align-items: center;
 }
 
 .bestventes{
-font-family: noto serif display;
-font-style:bold;
-font-size: larger;
-color: #d0b29e;
+  font-family: noto serif display;
+  font-style:bold;
+  font-size: 25px;
+  color: #d0b29e;
 
 }
 
 /* Section engagement de la marque */
+
+.centerengagement{
+  flex-direction: column;
+}
+
 .colonnes-engagements{
     display: flex;
     justify-content:center space-around ;
@@ -46,13 +51,14 @@ color: #d0b29e;
 
     .engagements{
         font-family: noto serif display;
-        font-size:  20px;
+        font-size:  25px;
         color: #4E2718;
         background-color: antiquewhite;
     }
 
     .sous-titre-engagement{
         background-color: antiquewhite;
+        font-size:  18px;
     }
 
     .colonnes2{
@@ -61,15 +67,12 @@ color: #d0b29e;
         align-items: center;
         justify-content: space-around 10px;
         flex-wrap: wrap;
+        margin: 0% 5%;
     }
 
 
 
     /* Bannière Nyssaé 2 */
-
-    container2 {
-        position: relative;
-      }
       
       .text2 {
         position:relative;
@@ -81,6 +84,7 @@ color: #d0b29e;
         font-size: 24px; /* Taille de police */
         text-align: center; /* Alignement du texte */
         flex-wrap: wrap;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       }
 
     .landing-page2{
@@ -104,6 +108,7 @@ color: #d0b29e;
 
       .provenance-text{
         flex-wrap: wrap;
+        margin: 0% 5%;
       }
 
       .imgiconlogo{
@@ -116,6 +121,7 @@ color: #d0b29e;
         display: flex;
     justify-content:center space-around ;
     align-items:center ;
+
       }
 
       .colonnes3{
@@ -124,11 +130,16 @@ color: #d0b29e;
         align-items: center;
         justify-content: space-around 10px;
         flex-wrap: wrap;
+        margin: 0% 5%;
       }
 
       .img-avantages{
         height: 100px;
         width: auto;
         justify-content: space-around 10px;
+        flex-direction: column;
       }
 
+      .centeravantages{
+        flex-direction: column;
+      }
