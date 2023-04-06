@@ -130,20 +130,44 @@
 
             <h2>- FAQ -</h2>
 
-            <button class="accordeon">Question 1</button>
+            <button class="accordeon">Quelle est la fréquence d'utilisation ?</button>
             <div class="reponse">
                 <p>
-                    Réponse 1
+                    Après la routine du soir, avant d'aller se coucher pour que la peau puisse se regénérer. 
                 </p>
             </div>
 
-            <button class="accordeon">Question 2</button>
+            <button class="accordeon">Quel est le temps de conservation ?</button>
             <div class="reponse">
                 <p>
-                    Réponse 2
+                    Bien fermé, peut-être conserver 1 an.
                 </p>
             </div>
+ 
             <script src="../js/blog_faq.js"></script>
+        <div>
+
+            <div>
+                <h2>Une question ? Nous vous répondons en 48h !</h2>
+            </div>
+
+            <form class="questionform">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email"><br><br>
+                
+                <label for="Nom">Nom :</label>
+                <input type="text" name="Nom"><br><br>
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom"><br><br>
+
+                <label for="commentaire">Commentaire:</label>
+                <input type="text" id="commentaire" name="commentaire"><br><br>
+                <button onclick="alert('Merci ' + document.getElementById('prenom').value + ' pour votre commentaire! \nNous vous répondrons sur votre adresse email : ' + document.getElementById('email').value)">Envoyer</button>
+              </form>
+
+        </div>
+
 
     </main>
 

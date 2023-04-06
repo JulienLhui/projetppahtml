@@ -179,35 +179,24 @@ main {
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     border: none;
     outline: none;
     transition: 0.3s;
 }
 
-.accordeon:after {
-    content: '+';
-    font-size: 15px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-}
 
-.active:after {
-    content: '+';
-}
-
-.active,
 .accordeon:hover {
     background-color: #d0b29e;
 }
 
 .reponse {
-    padding: 0 18px;
+    padding: 15px 0px;
     background-color: white;
     display: none;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -222,6 +211,7 @@ a {
     justify-content: space-around;
     padding-top: 20px;
     height: 150px;
+    margin: 20px 0px 0px 0px;
 }
 
 .logors {
