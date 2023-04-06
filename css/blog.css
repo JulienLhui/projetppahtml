@@ -231,6 +231,10 @@ input[type=text],input[type=email], select, textarea {
     text-align: center;
 }
 
+.FAQ{
+    margin: 0% 25%;
+}
+
 /* FOOTER */
 a {
     text-decoration-line: none;
