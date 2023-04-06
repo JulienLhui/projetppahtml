@@ -126,3 +126,26 @@ a.bouton2:hover {
       .imgiconlogo{
         height: 40PX;
       }
+
+      /* Bannière 3 : avantages*/
+      .avantages-nyssae{
+        background-color: #F4EFEF;
+        display: flex;
+    justify-content:center space-around ;
+    align-items:center ;
+      }
+
+      .colonnes3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around 10px;
+        flex-wrap: wrap;
+      }
+
+      .img-avantages{
+        height: 100px;
+        width: auto;
+        justify-content: space-around 10px;
+      }
+
