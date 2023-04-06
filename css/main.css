@@ -111,3 +111,18 @@ a.bouton2:hover {
         padding: 50px;
     
       }
+
+      .provenance-titre{
+        font-family: noto serif display;
+        font-style:bold;
+        font-size: 25px;
+        color: #d0b29e;
+      }
+
+      .provenance-text{
+        flex-wrap: wrap;
+      }
+
+      .imgiconlogo{
+        height: 40PX;
+      }
