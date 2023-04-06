@@ -3,10 +3,8 @@
 
 .ventes{
 display: flex;
-
 justify-content:space-around 1px ;
 align-items: center;
-align-content: center;
 }
 
 .img-ventes{
