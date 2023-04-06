@@ -31,10 +31,17 @@ h4{
 
 .footer1{
     background-color: #d0b29e;
-    /* height: 200px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
 }
 
 a{
     text-decoration-line: none;
     color: white;
+}
+
+.logors{
+    height: 40px;
 }
