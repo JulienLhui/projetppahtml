@@ -1,2 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+.blogline{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blogline img{
+    height: 50%;
+}
+
+.blogline p,
+.blogline h2{
+    text-align: center;
+}
