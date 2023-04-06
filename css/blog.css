@@ -163,12 +163,25 @@ main {
     flex-direction: column;
     width: 30%;
     align-items: center;
+    justify-content: center;
+/*!Petit problème ici avec les boutons qui sont compliqués à aligner... */
     padding: 0px 100px 0px 100px;
 }
 
 .bloc1 h2 {
     font-size: 18px;
     padding: 10px 0px 10px 0px;
+}
+
+.bouton2{
+    background-color: #4E2718;
+    border-radius: 20px;
+    border: 4px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 10PX 10px 10px 10PX;
+    margin: 20px 0px 0px 0px;
 }
 
 /* FAQ */
