@@ -12,9 +12,23 @@ p{
     color: #4e2718;
 }
 
-.img{
+
+
+
+.image{
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 250px
+
+}
+
+.part1{
     display: flex;
-    justify-content: right;
     align-items: center;
-    margin: 0 auto;
+    justify-content: space-between;
+    margin:0px 50px 0px 50px ;
+}
+.part1para{
+margin: 0px 50px 0px 0px;
+
 }
