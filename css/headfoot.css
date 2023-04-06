@@ -29,6 +29,11 @@ h4{
     align-items: center;
 }
 
+a{
+    text-decoration-line: none;
+    color: white;
+}
+
 .footer1{
     background-color: #d0b29e;
     display: flex;
@@ -37,25 +42,10 @@ h4{
     height: 150px;
 }
 
-a{
-    text-decoration-line: none;
-    color: white;
-}
-
 .logors{
-    height: 40px;
+    height: 30px;
 }
 
-.blocfoot{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.blocfoottitle{
+    color: black;
 }
-
-.rs{
-    display: flex;
-    justify-content: space-around;
-
-}
-
