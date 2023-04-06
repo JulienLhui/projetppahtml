@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* Section : boutique */
 .ventes{
 display: flex;
-justify-content:space-around 1px ;
+justify-content:space-around;
 align-items: center;
+}
+
+.colonnes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img-ventes{
@@ -20,3 +27,32 @@ font-size: larger;
 color: #d0b29e;
 
 }
+
+/* Section engagement de la marque */
+.colonnes-engagements{
+    display: flex;
+    justify-content:center space-around ;
+    align-items:center ;
+    }
+
+    .img-engagements{
+        height: 200px;
+        width: auto;
+        justify-content: space-around 10px;
+    }
+
+    .engagements{
+        font-family: noto serif display;
+        font-size:  20px;
+        color: #4E2718;
+    }
+
+    .colonnes-engagements {
+        background-color: antiquewhite;
+    }
+
+    .colonnes2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
