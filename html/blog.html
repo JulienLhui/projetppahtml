@@ -163,14 +163,14 @@
 
             <form class="questionform">
                 <label for="email">Email :</label>
-                <input type="email" id="email" name="email"><br><br>
-                
+                <input type="email" id="email" name="email" placeholder="votreemail@domaine.com"><br><br>
+                <div class="nomprenom">
                 <label for="Nom">Nom :</label>
                 <input type="text" name="Nom"><br><br>
 
                 <label for="prenom">Prénom :</label>
                 <input type="text" id="prenom" name="prenom"><br><br>
-
+                </div> 
                 <label for="commentaire">Commentaire:</label>
                 <input type="text" id="commentaire" name="commentaire"><br><br>
                 <button onclick="alert('Merci ' + document.getElementById('prenom').value + ' pour votre commentaire! \nNous vous répondrons sur votre adresse email : ' + document.getElementById('email').value)">Envoyer</button>
