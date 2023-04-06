@@ -32,8 +32,99 @@ h4{
 
 /* header MENU  */
 
+.imagebackground{
+    background-image: url(../img/Nyssae-banniere-header.svg);
+    background-position: center;
+    height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.textmenu{
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.headlogo{
+    height: 100px;
+}
+
+.imglogo {
+    width: 70px;
+}
+
+.top-page {
+    background-image: url(../img/Nyssae-banniere-header.svg);
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    height: 850px;
+}
 
 
+.big-title{
+    color: white;
+    display: flex;
+    align-items: right;
+    font-size: 40px;
+    font-weight: 200px;
+    font-family: Noto Serif Diplay;
+    padding: 100px 10px;
+    flex-wrap: wrap;
+    
+}
+
+a.bouton1 {
+    display: inline-block;
+    background-color: #4E2718;
+    border-radius: 20px;
+    border: 4px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 10PX 10px 10px 10PX;
+    width: 200px;
+    cursor: pointer;
+    margin: 0%;
+  }
+
+a.bouton1:hover {
+    background-color:#d0b29e ;
+  }
+
+nav.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 35%;
+}
+
+.nav li a{
+    text-decoration: none ;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+li a:hover{ 
+    color:#d0b29e;
+    text-decoration:double;
+}
     /* MAIN  */
 
 .blogline{
@@ -48,4 +139,45 @@ h4{
 .blogline p,
 .blogline h2{
     text-align: center;
+}
+
+
+
+/* FOOTER */
+a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.footer1{
+    background-color: #d0b29e;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 150px;
+}
+
+.logors{
+    height: 30px;
+}
+
+.blocfoottitle{
+    display: flex;
+    justify-content: center;
+}
+
+.footparag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.rsparag{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
 }
