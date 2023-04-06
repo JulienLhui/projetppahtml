@@ -56,6 +56,7 @@
                 <img src="../img/blog/1.jpg" class="blogimage">
                 <h2>Matériaux utilisés</h2>
                 <p>Découvrez de quoi est constitué l'huile d'argan...</p>
+                <button href="X" class="bouton2">Lire l'article</button>
             </div>
 
             <!-- Matériaux, blog2 -->
@@ -63,14 +64,17 @@
                 <img src="../img/blog/2.jpg" class="blogimage">
                 <h2>Massage à l'huile d'argan</h2>
                 <p>Faites-vous masser par notre partenaire officiel Massargan™</p>
+                <button href="X" class="bouton2">Lire l'article</button>
             </div>
 
             <!-- Matériaux, blog3 -->
             <div class="bloc1">
                 <img src="../img/blog/3.jpg" class="blogimage">
                 <h2>5 types d'utilisation</h2>
-                <p>Les bénéfices de l'huile d'argan sont multiples, découvrez en plus maintenat !</p>
+                <p>Les bénéfices de l'huile d'argan sont multiples, découvrez en plus maintenant !</p>
+                <button href="X" class="bouton2">Lire l'article</button>
             </div>
+
 
         </div>
 
@@ -81,6 +85,7 @@
                 <img src="../img/blog/4.jpg" class="blogimage">
                 <h2>Différentes qualités d'huiles</h2>
                 <p>L'huile d'argan est déclinable sous plusieurs qualités, voir notre guide ici !</p>
+                <button href="X" class="bouton2">Lire l'article</button>
             </div>
 
             <!-- Matériaux, blog5 -->
@@ -88,6 +93,7 @@
                 <img src="../img/blog/5.jpg" class="blogimage">
                 <h2>Processus de production</h2>
                 <p>Découvrez le processus de production de l'huile d'argan ici.</p>
+                <button href="X" class="bouton2">Lire l'article</button>
             </div>
 
             <!-- Matériaux, blog6 -->
@@ -95,6 +101,7 @@
                 <img src="../img/blog/6.jpg" class="blogimage">
                 <h2>Témoignages Client</h2>
                 <p>Virginie utilisatrice de nos produits témoigne de son utilisation.</p>
+                <button href="X" class="bouton2">Lire l'article</button>
             </div>
 
         </div>
@@ -106,6 +113,7 @@
                 <img src="../img/blog/7.jpg" class="blogimage">
                 <h2>Nos flacons éco-responsables</h2>
                 <p>Les différents types de flacons et leurs provenances</p>
+                <button href="X" class="bouton2">Lire l'article</button>
             </div>
 
             <!-- Matériaux, blog8 -->
@@ -113,6 +121,7 @@
                 <img src="../img/blog/8.jpg" class="blogimage">
                 <h2>L'huile d'argan contre les vergetures </h2>
                 <p>Les vergetures sont un phénomène dû à un étitrement de la peau rapide...</p>
+                <button href="X" class="bouton2">Lire l'article</button>
             </div>
 
             <!-- Matériaux, blog9 -->
@@ -121,6 +130,7 @@
                 <h2>Covid et huile d'argan</h2>
                 <p>L'utilisation du gel hydroalcoolique assèche fortement les mains sensibles, utilisez notre solution
                     pour palier à la sécheresse... </p>
+                <button href="X" class="bouton2">Lire l'article</button>
             </div>
 
         </div>
@@ -128,22 +138,46 @@
         <!-- FAQ -->
         <div class="FAQ">
 
-            <h2>- FAQ -</h2>
+            <h2 class="titleblog">- FAQ -</h2>
 
-            <button class="accordeon">Question 1</button>
+            <button class="accordeon">Quelle est la fréquence d'utilisation ?</button>
             <div class="reponse">
                 <p>
-                    Réponse 1
+                    Après la routine du soir, avant d'aller se coucher pour que la peau puisse se regénérer. 
                 </p>
             </div>
 
-            <button class="accordeon">Question 2</button>
+            <button class="accordeon">Quel est le temps de conservation ?</button>
             <div class="reponse">
                 <p>
-                    Réponse 2
+                    Bien fermé, peut-être conserver 1 an.
                 </p>
             </div>
+ 
             <script src="../js/blog_faq.js"></script>
+        <div>
+
+            <div>
+                <h2 class="titleblog">Une question ? Nous vous répondons en 48h !</h2>
+            </div>
+
+            <form class="questionform">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="votreemail@domaine.com"><br><br>
+                <div class="nomprenom">
+                <label for="Nom">Nom :</label>
+                <input type="text" name="Nom"><br><br>
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom"><br><br>
+                </div> 
+                <label for="commentaire">Commentaire:</label>
+                <input type="text" id="commentaire" name="commentaire"><br><br>
+                <button onclick="alert('Merci ' + document.getElementById('prenom').value + ' pour votre commentaire! \nNous vous répondrons sur votre adresse email : ' + document.getElementById('email').value)">Envoyer</button>
+              </form>
+
+        </div>
+
 
     </main>
 
