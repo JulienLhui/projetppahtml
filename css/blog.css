@@ -32,7 +32,32 @@ h4{
 
 /* header MENU  */
 
+.imagebackground{
+    background-image: url(../img/Nyssae-banniere-header.svg);
+    background-position: center;
+    height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.textmenu{
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.headlogo{
+    height: 100px;
+}
 
     /* MAIN  */
 
@@ -48,4 +73,45 @@ h4{
 .blogline p,
 .blogline h2{
     text-align: center;
+}
+
+
+
+/* FOOTER */
+a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.footer1{
+    background-color: #d0b29e;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 150px;
+}
+
+.logors{
+    height: 30px;
+}
+
+.blocfoottitle{
+    display: flex;
+    justify-content: center;
+}
+
+.footparag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.rsparag{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
 }
