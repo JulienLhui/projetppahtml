@@ -82,11 +82,30 @@ align-items: center;
         left: 50%;
         font-family: Noto serif display;
         transform: translate(-50%, -50%);
-        color: #fff; /* Couleur du texte */
-        font-size: 24px; /* Taille de police */
-        text-align: center; /* Alignement du texte */
+        color: #fff; 
+        font-size: 24px; 
+        text-align: center; 
         flex-wrap: wrap;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .bouton2{
+        display: inline-block;
+    background-color:#d0b29e;
+    border-radius: 20px;
+    border: 4px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 10PX 10px 10px 10PX;
+    width: 200px;
+    margin: 0%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);;
+      }
+
+      .bouton2:hover{
+        color: #d0b29e;
+        background-color:#4E2718;
       }
 
     .landing-page2{
