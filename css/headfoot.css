@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Noto = TITRE */
+/* Lato = Corps du texte */
+
+/* Cindy & Julien - Header Footer */
+
+*{
+    font-family: lato;
+    margin: 0px;
+    font-size: 15px;
+}
+
+h1{
+    font-family: noto serif diplay;
+}
+
+h4{
+    font-family: noto serif display;
+    font-size: 20px;
+    color: white;
+
+}
+
+.headliv{
+    background-color: #d0b29e;
+    padding: 15px 0px 15px 0px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Texte de bienvenue header  */
+
+/* HEADER LIVRAISON */
+
+*{
+    font-family: lato;
+    margin: 0px;
+    font-size: 15px;
+}
+
+h1{
+    font-family: noto;
+}
+
+h4{
+    font-family: noto;
+    font-size: 20px;
+    color: white;
+
+}
+
+.headliv{
+    background-color: #d0b29e;
+    padding: 15px 0px 15px 0px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header MENU  */
+
+.imagebackground{
+    background-image: url(../img/Nyssae-banniere-header.svg);
+    background-position: center;
+    height:80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.textmenu{
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.headlogo{
+    height: 100px;
+}
+
+.imglogo {
+    width: 70px;
+}
+
+.top-page {
+    background-image: url(../img/Nyssae-banniere-header.svg);
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    height: 800px;
+}
+
+
+.big-title {
+    color: white;
+    display: flex;
+    align-items: right;
+    font-size: 50px;
+    font-weight: 200px;
+    font-family: Noto Serif Diplay;
+    padding: 100px 10px;
+    flex-wrap: wrap;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)   
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+}
+
+a.bouton1 {
+    display: inline-block;
+    background-color: #4E2718;
+    border-radius: 20px;
+    border: 4px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 10PX 10px 10px 10PX;
+    width: 200px;
+    margin: 0%;
+  }
+
+a.bouton1:hover {
+    background-color:#d0b29e ;
+  }
+
+nav.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 35%;
+}
+
+.nav li a{
+    text-decoration: none ;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+li a:hover{ 
+    color:#d0b29e;
+    text-decoration:double;
+}
+
+/* FOOTER  */
+
+a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.footer1{
+    background-color: #d0b29e;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px 100px;
+    height: 150px;
+}
+
+.logors{
+    height: 30px;
+}
+
+.blocfoottitle{
+    display: flex;
+    justify-content: center;
+}
+
+.footparag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.rsparag{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+}

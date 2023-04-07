@@ -1,0 +1,278 @@
+
+/* Julien  */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* HEADER LIVRAISON */
+
+* {
+    font-family: lato;
+    margin: 0px;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: noto;
+}
+
+h4 {
+    font-family: noto;
+    font-size: 20px;
+    color: white;
+
+}
+
+.headliv {
+    background-color: #d0b29e;
+    padding: 15px 0px 15px 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header MENU  */
+
+header {
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 35%;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+li a:hover {
+    color: #d0b29e;
+    text-decoration: double;
+}
+
+.headlogo {
+    height: 100px;
+}
+
+.imglogo {
+    width: 70px;
+}
+
+.top-page {
+    background-image: url(../img/Nyssae-banniere-header.svg);
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    height: 80vh;
+}
+
+
+.big-title {
+    color: white;
+    display: flex;
+    align-items: right;
+    font-size: 50px;
+    font-weight: 200px;
+    font-family: Noto Serif Diplay;
+    padding: 100px 10px;
+    flex-wrap: wrap;
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+}
+
+a.bouton1 {
+    display: flex;
+    justify-content: center;
+    background-color: #4E2718;
+    border-radius: 20px;
+    border: 4px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 10PX 10px 10px 10PX;
+    width: 200px;
+    cursor: pointer;
+    margin: 0%;
+}
+
+a.bouton1:hover {
+    background-color: #d0b29e;
+}
+
+
+
+/* MAIN  */
+
+.titleblog {
+    font-family: Noto;
+    font-size: 30px;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+main {
+    margin: 0px 100px 0px 100px;
+}
+
+.blogline {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 100px 0px;
+}
+
+.blogimage {
+    width: 100%;
+}
+
+.blogline p,
+.blogline h2 {
+    text-align: center;
+}
+
+.bloc1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+/*!Petit problème ici avec les boutons qui sont compliqués à aligner... Utilisation du plugin better comments pour afficher simplement les commentaires */
+    padding: 0px 100px 0px 100px;
+}
+
+.bloc1 h2 {
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+}
+
+.bouton2{
+    background-color: #4E2718;
+    border-radius: 20px;
+    border: 4px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 10PX 10px 10px 10PX;
+    margin: 20px 0px 0px 0px;
+}
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  .questionform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0% 25% 0% 25%;
+  }
+
+
+/* FAQ */
+
+.accordeon {
+    background-color: #4E2718;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+.accordeon:hover {
+    background-color: #d0b29e;
+}
+
+.reponse {
+    padding: 15px 0px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: center;
+}
+
+.FAQ{
+    margin: 0% 25%;
+}
+
+/* FOOTER */
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.footer1 {
+    background-color: #d0b29e;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 150px;
+    margin: 20px 0px 0px 0px;
+}
+
+.logors {
+    height: 30px;
+}
+
+.blocfoottitle {
+    display: flex;
+    justify-content: center;
+}
+
+.footparag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.rsparag {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
