@@ -1,11 +1,122 @@
 
+/* Ahmat Djalabi FARKHALIA */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: noto serif display;
+}
+
+
 .icone1 
  {height: 50px;}
 
  body {margin: 0;}
 
- .header {
+ header {
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 35%;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+li a:hover {
+    color: #d0b29e;
+    text-decoration: double;
+}
+
+.headlogo {
+    height: 100px;
+}
+
+.logo{
+    position:absolute;
+    right: 130px;
+    width: 350px;
+    height: 150px;
+}
+
+.imglogo {
+    width: 70px;
+}
+
+.top-page {
+    background-image: url(../img/huile.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    height: 80vh;
+    width: 1440px;
+    height: 580px;
+}
+
+
+.big-title {
+    
+    width: 415px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 100%;
+}
+
+.headertext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 55%;
+    height: 80%;
+}
+
+a.bouton1 {
+    display: flex;
+    justify-content: center;
+    background-color: #4E2718;
+    border-radius: 20px;
+    border: 4px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 10PX 10px 10px 10PX;
+    width: 200px;
+    cursor: pointer;
+    margin: 0%;
+}
+
+a.bouton1:hover {
+    background-color: #d0b29e;
+}
+
+
+ .headerimg {
     position: relative;
     
  }
@@ -32,6 +143,7 @@
     display: block;
     width: 450px;
     height: 150px;
+
 }
 
  .header-content h1 {
@@ -39,7 +151,6 @@
     text-align: center;
     color: #FFFFFF;
     top: 100%;
-    font-family: 'Noto+Serif';
 }
 
  
@@ -47,7 +158,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Noto+Serif+Display&display';
 }
 
  .titre1 
@@ -92,7 +202,12 @@
     width: 250px;
     margin: 10px 5px 0px 0px;
     box-shadow: 5px 5px 5px rgba(78, 39, 24, 0.5);
-    
+    transition: all 0.5s;
+   
+ }
+
+ .image10ml:hover{
+    transform: scale(1.1);
  }
 
  .image30ml 
@@ -139,6 +254,7 @@
     padding: 10px 10px 10px 10px;
     margin: 5px 120px 25px 120px;
     border-radius: 10px;
+    font-family: "lato";
 }
 
  .etoile 
@@ -152,15 +268,18 @@
 
 
 .titre3 
-{display: flex;
+{
+    display: flex;
     justify-content: center;
     color: #4e2718;
     margin: 20px 0px 0px 0px;
     background-color: white;
-    padding: 20px 0px 0px 0px ;}
+    padding: 20px 0px 0px 0px ;
+}
 
 .milieu2 
-{display: flex;
+{
+    display: flex;
     justify-content: space-between;
     background-color: white;
     align-content: center;
@@ -186,10 +305,10 @@ margin: 30px 100px 0px 100px;
     box-shadow: 5px 5px 5px rgba(78, 39, 24, 0.1);
 }
 
-.description
+.description strong
 {
     color: #4e2718;
-    font-family: "fantasy";
+    font-family: 'Lato', sans-serif;
 }
    
 
@@ -239,6 +358,44 @@ background-color: #fff0e5;}
 }
 
 
+
+/* FOOTER */
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.footer1 {
+    background-color: #d0b29e;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.logors {
+    height: 30px;
+}
+
+.blocfoottitle {
+    display: flex;
+    justify-content: center;
+}
+
+.footparag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.rsparag {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
 
 
 
