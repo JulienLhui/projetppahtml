@@ -148,18 +148,50 @@ h1{
     align-items: center;
     justify-content: center;
     margin: 50px 0px 50px 0px;
+    font-size: 50px;
 }
 
+h2{
+color: #4E2718;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 30px 0px 30px 0px;
+font-size: 30px;
+
+}
 
 p{
     color: #4e2718;
     font-size: 15px;
     letter-spacing: 1,5px;
     line-height: 25px;
-
+    
 
 }
 
+.flash:hover{
+
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 
 
@@ -180,7 +212,15 @@ p{
 .part1para{
 margin: 0px 50px 0px 50px;
 
+}
 
+.part1image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px 0px 0px;
+    border-bottom: #4E2718;
+    height: 300px;
 }
 
 .part2{
@@ -200,11 +240,13 @@ margin: 0px 50px 0px 50px;
     align-items: end;
     justify-content: center;
     margin: 100px 0px 50px 0px;
-
+    border-top: #4E2718;
+    height: 350px;
+    
 }
 
 .part3{
-    margin: 0px 120px 0px 120px;
+    margin: 50px 120px 0px 120px;
 
 }
 .part3image{
@@ -212,9 +254,16 @@ margin: 0px 50px 0px 50px;
 display: flex;
 align-items: center;
 justify-content: center;
-margin: 30px 0px 30px 300px;
+margin: 30px 0px 50px 300px;
+border-bottom: #4E2718;
+height: 350px;
 
 }
+
+
+    
+
+
 
 
 
